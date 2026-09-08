@@ -1,0 +1,73 @@
+name: Drama QA Pipeline
+
+
+steps:
+
+
+- name:
+
+逻辑检测
+
+agent:
+
+logic_checker
+
+
+
+- name:
+
+人物检测
+
+agent:
+
+character_checker
+
+
+
+- name:
+
+节奏检测
+
+agent:
+
+pacing_checker
+
+
+
+- name:
+
+情绪检测
+
+agent:
+
+emotion_checker
+
+
+
+- name:
+
+商业检测
+
+agent:
+
+commercial_checker
+
+
+
+- name:
+
+综合评分
+
+agent:
+
+review_agent
+
+
+
+- name:
+
+生成修改方案
+
+agent:
+
+rewrite_agent

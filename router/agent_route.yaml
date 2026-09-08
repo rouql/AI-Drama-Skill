@@ -1,0 +1,127 @@
+# AI-Drama-Skill Agent Route Configuration
+# Version: 1.0
+
+
+routes:
+
+
+  short_drama_development:
+
+
+    description:
+      完整短剧开发流程
+
+
+    sequence:
+
+
+      - market_agent
+
+      - story_agent
+
+      - character_agent
+
+      - script_agent
+
+      - dialogue_agent
+
+      - qa_manager_agent
+
+      - review_agent
+
+      - master_agent
+
+
+
+
+  story_creation:
+
+
+    description:
+      故事开发流程
+
+
+    sequence:
+
+
+      - story_agent
+
+      - character_agent
+
+      - master_agent
+
+
+
+
+  script_generation:
+
+
+    description:
+      剧本生成流程
+
+
+    sequence:
+
+
+      - script_agent
+
+      - dialogue_agent
+
+      - qa_manager_agent
+
+
+
+
+  quality_optimization:
+
+
+    description:
+      剧本优化流程
+
+
+    sequence:
+
+
+      - qa_manager_agent
+
+      - review_agent
+
+      - rewrite_agent
+
+
+
+
+  market_strategy:
+
+
+    description:
+      市场策略分析流程
+
+
+    sequence:
+
+
+      - audience_analysis_agent
+
+      - market_agent
+
+      - marketing_agent
+
+
+
+
+  commercial_analysis:
+
+
+    description:
+      商业价值分析流程
+
+
+    sequence:
+
+
+      - business_analysis_agent
+
+      - monetization_agent
+
+      - cost_analysis_agent

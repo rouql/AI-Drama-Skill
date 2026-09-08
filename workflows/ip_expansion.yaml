@@ -1,0 +1,58 @@
+name: IP Expansion Workflow
+
+
+steps:
+
+
+- name:
+
+读取IP记忆
+
+
+agent:
+
+ip_manager_agent
+
+
+
+- name:
+
+分析扩展机会
+
+
+agent:
+
+research_agent
+
+
+
+- name:
+
+生成第二季方案
+
+
+agent:
+
+story_agent
+
+
+
+- name:
+
+商业评估
+
+
+agent:
+
+market_agent
+
+
+
+- name:
+
+保存宇宙
+
+
+agent:
+
+memory_agent

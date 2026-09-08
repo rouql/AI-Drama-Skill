@@ -1,0 +1,59 @@
+name: Episode Production Pipeline
+
+
+steps:
+
+
+- step:
+
+    name: 读取项目记忆
+
+    agent: master_agent
+
+
+
+- step:
+
+    name: 分析本集目标
+
+    agent: story_agent
+
+
+
+- step:
+
+    name: 场景生成
+
+    agent: script_agent
+
+
+
+- step:
+
+    name: 对白优化
+
+    agent: dialogue_agent
+
+
+
+- step:
+
+    name: 情绪检查
+
+    agent: emotion_agent
+
+
+
+- step:
+
+    name: 质量评分
+
+    agent: review_agent
+
+
+
+- step:
+
+    name: 更新记忆
+
+    agent: master_agent

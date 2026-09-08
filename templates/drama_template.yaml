@@ -1,0 +1,59 @@
+name: Drama Production Template
+
+
+structure:
+
+
+opening:
+
+ type:
+
+  hook
+
+
+
+character:
+
+ type:
+
+  character_model
+
+
+
+conflict:
+
+ type:
+
+  core_conflict
+
+
+
+episode:
+
+ type:
+
+  episode_structure
+
+
+
+climax:
+
+ type:
+
+  climax_design
+
+
+
+ending:
+
+ type:
+
+  ending_model
+
+
+
+commercial:
+
+ type:
+
+  monetization

@@ -1,0 +1,46 @@
+name: Trend Score
+
+
+total:100
+
+
+dimensions:
+
+
+ popularity:
+  name: 热度
+  weight:30
+
+
+ audience:
+  name: 用户需求
+  weight:25
+
+
+ competition:
+  name: 竞争空间
+  weight:20
+
+
+ commercial:
+  name: 商业价值
+  weight:25
+
+
+level:
+
+
+ S:
+  score:90-100
+
+
+ A:
+  score:80-89
+
+
+ B:
+  score:70-79
+
+
+ C:
+  below70

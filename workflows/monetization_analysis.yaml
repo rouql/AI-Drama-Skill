@@ -1,0 +1,47 @@
+name: Monetization Analysis Workflow
+
+
+steps:
+
+
+- name:
+
+读取项目数据
+
+
+agent:
+
+business_analysis_agent
+
+
+
+- name:
+
+分析用户价值
+
+
+agent:
+
+audience_analysis_agent
+
+
+
+- name:
+
+生成商业方案
+
+
+agent:
+
+monetization_agent
+
+
+
+- name:
+
+保存经验
+
+
+agent:
+
+memory_manager_agent

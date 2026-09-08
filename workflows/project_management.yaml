@@ -1,0 +1,47 @@
+name: Project Management Workflow
+
+
+steps:
+
+
+- name:
+
+读取项目状态
+
+
+agent:
+
+project_manager_agent
+
+
+
+- name:
+
+检查资源
+
+
+agent:
+
+resource_manager_agent
+
+
+
+- name:
+
+分析成本
+
+
+agent:
+
+cost_analysis_agent
+
+
+
+- name:
+
+生成管理建议
+
+
+agent:
+
+master_agent

@@ -1,0 +1,70 @@
+name: Drama QA Score
+
+
+total:100
+
+
+dimensions:
+
+
+ story_logic:
+
+  name: 剧情逻辑
+
+  weight:20
+
+
+
+ character:
+
+  name: 人物质量
+
+  weight:20
+
+
+
+ pacing:
+
+  name: 节奏控制
+
+  weight:20
+
+
+
+ emotion:
+
+  name: 情绪强度
+
+  weight:25
+
+
+
+ commercial:
+
+  name: 商业价值
+
+  weight:15
+
+
+
+level:
+
+
+ S:
+
+  score:90-100
+
+
+ A:
+
+  score:80-89
+
+
+ B:
+
+  score:70-79
+
+
+ C:
+
+  below70

@@ -1,0 +1,36 @@
+name: Batch Drama Production
+
+
+mode:
+
+ parallel
+
+
+
+projects:
+
+
+ - drama_001
+
+ - drama_002
+
+ - drama_003
+
+
+
+rules:
+
+
+同时运行：
+
+市场分析
+
+IP开发
+
+剧本测试
+
+
+
+最终：
+
+选择最高评分项目进入生产。

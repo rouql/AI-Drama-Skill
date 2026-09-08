@@ -1,0 +1,175 @@
+# AI-Drama-Skill Workflow Mapping
+# Version: 1.1
+#
+# 注意：
+# 所有workflow名称必须对应 workflows/ 目录真实文件
+
+
+workflow_mapping:
+
+
+  short_drama_development:
+
+
+    description:
+
+      完整短剧项目开发流程
+
+
+    workflow:
+
+      drama_creation.yaml
+
+
+
+  story_creation:
+
+
+    description:
+
+      故事开发与结构设计
+
+
+    workflow:
+
+      drama_creation.yaml
+
+
+
+  episode_creation:
+
+
+    description:
+
+      分集生产流程
+
+
+    workflow:
+
+      episode_pipeline.yaml
+
+
+
+  ip_development:
+
+
+    description:
+
+      IP扩展开发
+
+
+    workflow:
+
+      ip_expansion.yaml
+
+
+
+  script_revision:
+
+
+    description:
+
+      剧本修改优化
+
+
+    workflow:
+
+      revision_pipeline.yaml
+
+
+
+  quality_review:
+
+
+    description:
+
+      项目质量审核
+
+
+    workflow:
+
+      project_review.yaml
+
+
+
+  market_analysis:
+
+
+    description:
+
+      市场分析和发行策略
+
+
+    workflow:
+
+      release_analysis.yaml
+
+
+
+  marketing_feedback:
+
+
+    description:
+
+      市场反馈分析
+
+
+    workflow:
+
+      marketing_feedback.yaml
+
+
+
+  business_analysis:
+
+
+    description:
+
+      商业价值分析
+
+
+    workflow:
+
+      monetization_analysis.yaml
+
+
+
+  project_management:
+
+
+    description:
+
+      项目管理
+
+
+    workflow:
+
+      project_management.yaml
+
+
+
+  template_operation:
+
+
+    description:
+
+      模板生成与管理
+
+
+    workflow:
+
+      template_generation.yaml
+
+
+
+  batch_execution:
+
+
+    description:
+
+      批量任务处理
+
+
+    workflow:
+
+      batch_pipeline.yaml

@@ -1,0 +1,94 @@
+name: Drama Creation Pipeline
+
+
+version: 1.0
+
+
+trigger:
+
+  command:
+
+    - 启动短剧Skill
+
+
+
+steps:
+
+
+  - id: requirement_analysis
+
+    name: 需求分析
+
+    agent: master_agent
+
+
+
+  - id: market
+
+    name: 市场分析
+
+    agent: market_agent
+
+
+
+  - id: ip
+
+    name: IP开发
+
+    agent: ip_agent
+
+
+
+  - id: character
+
+    name: 人物设计
+
+    agent: character_agent
+
+
+
+  - id: story
+
+    name: 故事架构
+
+    agent: story_agent
+
+
+
+  - id: emotion
+
+    name: 情绪设计
+
+    agent: emotion_agent
+
+
+
+  - id: script
+
+    name: 剧本生成
+
+    agent: script_agent
+
+
+
+  - id: review
+
+    name: 质量审核
+
+    agent: review_agent
+
+
+
+  - id: optimize
+
+    name: 优化修改
+
+    agent: rewrite_agent
+
+
+
+  - id: memory_save
+
+    name: 保存项目
+
+    agent: master_agent

@@ -1,0 +1,135 @@
+# AI-Drama-Skill Agent Intent Mapping
+# Version: 1.0
+
+intents:
+
+
+  story_creation:
+
+    description:
+      故事创意、题材开发、世界观设计任务
+
+    keywords:
+
+      - 故事
+      - 创意
+      - 题材
+      - 世界观
+      - 故事框架
+      - 核心设定
+
+    agents:
+
+      - story_agent
+
+
+
+  character_design:
+
+    description:
+      人物设计、人物关系、人物弧线任务
+
+    keywords:
+
+      - 人物
+      - 主角
+      - 反派
+      - 人设
+      - 人物关系
+      - 人物成长
+
+    agents:
+
+      - character_agent
+
+
+
+  script_writing:
+
+    description:
+      剧本创作、分集设计、对白生成任务
+
+    keywords:
+
+      - 剧本
+      - 分集
+      - 场景
+      - 对白
+      - 台词
+      - 剧情展开
+
+    agents:
+
+      - script_agent
+
+      - dialogue_agent
+
+
+
+  quality_review:
+
+    description:
+      剧本质量检查、内容审核、修改优化任务
+
+    keywords:
+
+      - 审核
+      - 检查
+      - 优化
+      - 修改
+      - 质量
+
+    agents:
+
+      - qa_manager_agent
+
+      - review_agent
+
+      - rewrite_agent
+
+
+
+  market_analysis:
+
+    description:
+      市场分析、用户分析、爆款判断任务
+
+    keywords:
+
+      - 市场
+      - 用户
+      - 爆款
+      - 热度
+      - 趋势
+      - 受众
+
+    agents:
+
+      - market_agent
+
+      - marketing_agent
+
+      - audience_analysis_agent
+
+
+
+  business_analysis:
+
+    description:
+      商业价值、变现能力、项目评估任务
+
+    keywords:
+
+      - 商业
+      - 变现
+      - 收益
+      - 投资
+      - 价值
+
+    agents:
+
+      - business_analysis_agent
+
+      - monetization_agent
+
+      - cost_analysis_agent

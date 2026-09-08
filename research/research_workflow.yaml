@@ -1,0 +1,39 @@
+name: Auto Research Pipeline
+
+
+steps:
+
+
+- name: 市场趋势扫描
+
+  agent: trend_agent
+
+
+
+- name: 竞品分析
+
+  agent: competitor_agent
+
+
+
+- name: 用户分析
+
+  agent: audience_agent
+
+
+
+- name: 生成选题
+
+  agent: topic_agent
+
+
+
+- name: 评分筛选
+
+  agent: review_agent
+
+
+
+- name: 保存研究结果
+
+  agent: master_agent
