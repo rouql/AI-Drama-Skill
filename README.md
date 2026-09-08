@@ -108,6 +108,15 @@ AI-Drama-Skill/
 └── workflows/         # 生产工作流
 ```
 
+## 🔗 Related Project / 相关项目
+
+想要更精简的 **V20 封版量产型生产 Skill**（含轻量质量门禁与确定性校验脚本）？
+
+→ [**ai-short-drama-production**](https://github.com/rouql/ai-short-drama-production)
+
+Looking for the lean, feature-frozen V20 production skill with lightweight quality gates? See
+[ai-short-drama-production](https://github.com/rouql/ai-short-drama-production).
+
 ## 🗓 Changelog / 更新记录
 
 See [CHANGELOG.md](CHANGELOG.md) · 当前版本 **v1.0.0**（Stable，2026-08-18）
