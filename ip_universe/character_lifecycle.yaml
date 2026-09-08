@@ -1,0 +1,48 @@
+character:
+
+
+ stages:
+
+
+  birth:
+
+
+   description:
+
+    角色建立
+
+
+
+  growth:
+
+
+   description:
+
+    能力提升
+
+
+
+  conflict:
+
+
+   description:
+
+    核心矛盾
+
+
+
+  transformation:
+
+
+   description:
+
+    人物变化
+
+
+
+  legacy:
+
+
+   description:
+
+    留给后续故事

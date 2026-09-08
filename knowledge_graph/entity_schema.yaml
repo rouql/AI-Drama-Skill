@@ -1,0 +1,51 @@
+name: Drama Knowledge Entity
+
+
+entities:
+
+
+  genre:
+
+    type:
+
+      题材
+
+
+
+  character:
+
+    type:
+
+      人物
+
+
+
+  emotion:
+
+    type:
+
+      情绪
+
+
+
+  conflict:
+
+    type:
+
+      冲突
+
+
+
+  structure:
+
+    type:
+
+      剧情结构
+
+
+
+  business:
+
+    type:
+
+      商业元素

@@ -1,0 +1,59 @@
+name: IP Universe Schema
+
+
+universe:
+
+
+ id:
+
+  type: string
+
+
+
+ title:
+
+  type: string
+
+
+
+ world:
+
+
+  era:
+
+
+  location:
+
+
+  rules:
+
+
+
+ characters:
+
+
+  main:
+
+
+  secondary:
+
+
+
+ timeline:
+
+
+  events:
+
+
+
+ stories:
+
+
+  seasons:
+
+
+
+ assets:
+
+
+  commercial:
