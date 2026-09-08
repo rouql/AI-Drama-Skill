@@ -1,0 +1,39 @@
+name: Feedback Learning Pipeline
+
+
+steps:
+
+
+- name: 数据读取
+
+  agent: performance_agent
+
+
+
+- name: 用户分析
+
+  agent: audience_feedback_agent
+
+
+
+- name: 情绪分析
+
+  agent: emotion_analysis_agent
+
+
+
+- name: 问题诊断
+
+  agent: review_agent
+
+
+
+- name: 经验总结
+
+  agent: master_agent
+
+
+
+- name: 更新知识库
+
+  agent: knowledge_manager

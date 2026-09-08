@@ -1,0 +1,31 @@
+name: AI短剧生产流程
+
+
+steps:
+
+  - name: 市场分析
+    agent: market_agent
+
+
+  - name: IP设计
+    agent: ip_agent
+
+
+  - name: 人物设计
+    agent: character_agent
+
+
+  - name: 故事架构
+    agent: story_agent
+
+
+  - name: 剧本生成
+    agent: script_agent
+
+
+  - name: 质量检查
+    agent: review_agent
+
+
+  - name: 优化修改
+    agent: rewrite_agent

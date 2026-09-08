@@ -1,0 +1,60 @@
+name: Drama Feedback Data
+
+
+version: 1.0
+
+
+data:
+
+
+project_id:
+
+ type: string
+
+
+
+views:
+
+ type: number
+
+
+
+completion_rate:
+
+ type: number
+
+
+
+pay_rate:
+
+ type: number
+
+
+
+comments:
+
+ type: array
+
+
+
+likes:
+
+ type: number
+
+
+
+shares:
+
+ type: number
+
+
+
+favorite_rate:
+
+ type: number
+
+
+
+audience_profile:
+
+ type: object

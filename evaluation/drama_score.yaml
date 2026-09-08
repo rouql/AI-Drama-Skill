@@ -1,0 +1,55 @@
+name: AI Drama Score System
+
+
+total: 100
+
+
+scores:
+
+
+  story:
+    name: 故事质量
+    weight: 30
+
+
+  character:
+    name: 人物质量
+    weight: 25
+
+
+  emotion:
+    name: 情绪吸引力
+    weight: 20
+
+
+  commercial:
+    name: 商业价值
+    weight: 20
+
+
+  risk:
+    name: 风险控制
+    weight: 5
+
+
+level:
+
+
+  S:
+    score: 90-100
+    action: 重点开发
+
+
+  A:
+    score: 80-89
+    action: 优化后开发
+
+
+  B:
+    score: 70-79
+    action: 修改
+
+
+  C:
+    score: below70
+    action: 淘汰

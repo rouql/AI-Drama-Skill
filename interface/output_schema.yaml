@@ -1,0 +1,68 @@
+name: Drama Output Schema
+
+
+version: 1.0
+
+
+output:
+
+
+ project:
+
+  name:
+
+
+  genre:
+
+
+  score:
+
+
+
+ market:
+
+
+  analysis:
+
+
+  audience:
+
+
+
+ characters:
+
+
+  main:
+
+
+  villain:
+
+
+
+ story:
+
+
+  outline:
+
+
+ episodes:
+
+
+  list:
+
+
+
+ evaluation:
+
+
+  total_score:
+
+
+  recommendation:
+
+
+
+ memory:
+
+
+  project_id:

@@ -1,0 +1,54 @@
+name: Drama Input Schema
+
+
+version: 1.0
+
+
+input:
+
+
+ project_name:
+
+  type: string
+
+
+
+ genre:
+
+  type: string
+
+
+
+ episodes:
+
+  type: number
+
+
+
+ platform:
+
+  type: string
+
+
+
+ audience:
+
+  type: string
+
+
+
+ tone:
+
+  type: string
+
+
+
+ reference:
+
+  type: string
+
+
+
+ requirements:
+
+  type: string
