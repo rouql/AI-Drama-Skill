@@ -1,0 +1,69 @@
+name: Factory Automation Workflow
+
+
+steps:
+
+
+- name:
+
+检查项目状态
+
+
+agent:
+
+master_agent
+
+
+
+- name:
+
+读取任务队列
+
+
+agent:
+
+automation_agent
+
+
+
+- name:
+
+执行任务
+
+
+agent:
+
+task_router
+
+
+
+- name:
+
+质量检查
+
+
+agent:
+
+qa_manager_agent
+
+
+
+- name:
+
+更新记忆
+
+
+agent:
+
+memory_agent
+
+
+
+- name:
+
+生成报告
+
+
+agent:
+
+report_agent

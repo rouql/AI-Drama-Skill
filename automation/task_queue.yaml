@@ -1,0 +1,51 @@
+name: Task Queue
+
+
+tasks:
+
+
+- id:
+
+ TASK001
+
+
+ type:
+
+ market_analysis
+
+
+ status:
+
+ pending
+
+
+
+- id:
+
+ TASK002
+
+
+ type:
+
+ character_design
+
+
+ status:
+
+ waiting
+
+
+
+- id:
+
+ TASK003
+
+
+ type:
+
+ script_generation
+
+
+ status:
+
+ locked

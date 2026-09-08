@@ -1,0 +1,36 @@
+name: Scheduler
+
+
+rules:
+
+
+- condition:
+
+ previous_task_completed:true
+
+
+ action:
+
+ start_next_task
+
+
+
+- condition:
+
+ qa_score < 80
+
+
+ action:
+
+ trigger_rewrite
+
+
+
+- condition:
+
+ project_idle > 24h
+
+
+ action:
+
+ create_reminder
