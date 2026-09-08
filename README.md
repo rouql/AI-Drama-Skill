@@ -1,3 +1,9 @@
+> **⚠️ 兼容性声明 / Compatibility Note**
+> 本项目基于 Codex 测试，其他 AI 工具未经测试，效果参差不齐。
+> This project is tested with Codex. Other AI tools are untested and may produce inconsistent results.
+
+---
+
 # 🎬 AI-Drama-Skill
 
 **A professional AI short-drama creation skill** · 专业 AI 短剧创作能力扩展包
