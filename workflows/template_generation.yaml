@@ -1,0 +1,47 @@
+name: Template Generation Workflow
+
+
+steps:
+
+
+- name:
+
+分析题材
+
+
+agent:
+
+research_agent
+
+
+
+- name:
+
+匹配模板
+
+
+agent:
+
+template_manager_agent
+
+
+
+- name:
+
+生成结构
+
+
+agent:
+
+story_agent
+
+
+
+- name:
+
+检查质量
+
+
+agent:
+
+review_agent

@@ -1,0 +1,36 @@
+name: Project Review Workflow
+
+
+steps:
+
+
+- name:
+
+读取项目数据
+
+
+agent:
+
+project_manager_agent
+
+
+
+- name:
+
+分析结果
+
+
+agent:
+
+portfolio_manager_agent
+
+
+
+- name:
+
+总结经验
+
+
+agent:
+
+memory_manager_agent

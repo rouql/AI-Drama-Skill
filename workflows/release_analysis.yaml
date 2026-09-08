@@ -1,0 +1,43 @@
+name: Release Analysis
+
+
+steps:
+
+
+- name:
+
+读取作品信息
+
+agent:
+
+marketing_agent
+
+
+
+- name:
+
+分析目标用户
+
+agent:
+
+audience_analysis_agent
+
+
+
+- name:
+
+制定传播策略
+
+agent:
+
+growth_agent
+
+
+
+- name:
+
+生成报告
+
+agent:
+
+master_agent

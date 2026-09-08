@@ -1,0 +1,46 @@
+name: Revision Pipeline
+
+
+trigger:
+
+
+  condition:
+
+    score:
+
+      below: 80
+
+
+
+steps:
+
+
+- step:
+
+    name: 找出问题
+
+    agent: review_agent
+
+
+
+- step:
+
+    name: 修改剧情
+
+    agent: rewrite_agent
+
+
+
+- step:
+
+    name: 重新评分
+
+    agent: review_agent
+
+
+
+- step:
+
+    name: 保存版本
+
+    agent: master_agent
