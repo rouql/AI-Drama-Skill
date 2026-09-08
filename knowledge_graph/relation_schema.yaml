@@ -1,0 +1,40 @@
+relations:
+
+
+  contains:
+
+    meaning:
+
+      包含
+
+
+
+  triggers:
+
+    meaning:
+
+      触发
+
+
+
+  improves:
+
+    meaning:
+
+      提升
+
+
+
+  conflicts_with:
+
+    meaning:
+
+      冲突
+
+
+
+  suitable_for:
+
+    meaning:
+
+      适合

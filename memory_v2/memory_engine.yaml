@@ -1,0 +1,38 @@
+name: Memory Engine
+
+
+actions:
+
+
+store:
+
+
+ 保存新经验
+
+
+
+retrieve:
+
+
+ 调取相关经验
+
+
+
+update:
+
+
+ 修改已有规律
+
+
+
+rank:
+
+
+ 经验权重排序
+
+
+
+forget:
+
+
+ 删除无效规律

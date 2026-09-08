@@ -1,0 +1,43 @@
+name: Scene Schema
+
+
+scene:
+
+
+ id:
+
+ type:string
+
+
+
+ location:
+
+
+ time:
+
+
+
+ characters:
+
+
+ actions:
+
+
+
+ emotion:
+
+
+
+ camera:
+
+
+
+ lighting:
+
+
+
+ sound:
+
+
+
+ visual_style:

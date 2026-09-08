@@ -1,0 +1,64 @@
+name: AI Drama Team Structure
+
+
+roles:
+
+
+  producer:
+
+
+    name: 总制片人
+
+
+    agent:
+
+      master_agent
+
+
+    responsibility:
+
+      - 项目决策
+      - 资源调度
+      - 最终审批
+
+
+
+  director:
+
+
+    name: AI导演
+
+
+    responsibility:
+
+      - 故事方向
+      - 节奏控制
+      - 艺术统一
+
+
+
+  departments:
+
+
+    market:
+
+      leader:
+        market_agent
+
+
+    story:
+
+      leader:
+        story_agent
+
+
+    script:
+
+      leader:
+        script_agent
+
+
+    quality:
+
+      leader:
+        review_agent

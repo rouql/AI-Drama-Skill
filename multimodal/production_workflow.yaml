@@ -1,0 +1,69 @@
+name: Multi Modal Production Workflow
+
+
+steps:
+
+
+- name:
+
+读取剧本
+
+
+agent:
+
+script_agent
+
+
+
+- name:
+
+生成分镜
+
+
+agent:
+
+storyboard_agent
+
+
+
+- name:
+
+设计镜头
+
+
+agent:
+
+camera_agent
+
+
+
+- name:
+
+设计视觉
+
+
+agent:
+
+visual_design_agent
+
+
+
+- name:
+
+设计声音
+
+
+agent:
+
+audio_design_agent
+
+
+
+- name:
+
+生成制作方案
+
+
+agent:
+
+video_plan_agent

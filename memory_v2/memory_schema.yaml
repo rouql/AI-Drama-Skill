@@ -1,0 +1,57 @@
+name: Memory Structure
+
+
+memory_types:
+
+
+ project:
+
+
+  description:
+
+   项目资料
+
+
+
+ creative:
+
+
+  description:
+
+   创作规律
+
+
+
+ market:
+
+
+  description:
+
+   市场经验
+
+
+
+ failure:
+
+
+  description:
+
+   失败案例
+
+
+
+ strategy:
+
+
+  description:
+
+   决策经验
+
+
+
+ user:
+
+
+  description:
+
+   用户偏好

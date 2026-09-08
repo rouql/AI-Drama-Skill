@@ -1,0 +1,62 @@
+name:
+
+ AI-Drama-Skill
+
+
+version:
+
+ 1.0.0
+
+
+type:
+
+ creative_domain_skill
+
+
+description:
+
+ Professional AI short drama creation skill
+
+
+author:
+
+ AI-Drama-Team
+
+
+capabilities:
+
+
+ - story_creation
+
+ - character_design
+
+ - script_generation
+
+ - qa_review
+
+ - market_analysis
+
+ - business_analysis
+
+
+components:
+
+
+ agents:
+
+  enabled: true
+
+
+ workflows:
+
+  enabled: true
+
+
+ knowledge:
+
+  enabled: true
+
+
+ memory:
+
+  enabled: true
